@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <section id="s1">
+        <h1>Hi, My name is Chan Reaksmey.</h1>
+        <h2>I am studying full stack Web Developer.</h2>
+        <p>See more <a href="./imgages/myphoto.jpg">my photo</a> in our gellery.</p>
+        <img src="./imgages/programmer.jpg" alt="programmer" width="500px">
+        <a href="Master_IT\imgages\programmer.jpg"></a>
+    </section>
+    
+    <section>
+        <h2><u>My hobby</u></h2>
+        <h3>Things I love</h3>
+        <ul>
+            <li>Kind people</li>
+            <li>Sleep</li>
+            <li>Dog, cat, cow, etc</li>
+        </ul>
+        <figure>
+            <img src="./imgages/woman-sleeping_231208-12161.jpg" alt="boy sleeping" width="300px">
+            <figcaption>
+                <p>I <i>like</i> sleeping.</p>
+            </figcaption>
+        </figure>
+        
+        
+        <h3>Things I hate</h3>
+        <ol>
+            <li>Study</li>
+            <li>Taking</li>
+            <li>Bad people</li>
+        </ol>
+        <figure>
+            <img src="./imgages/stress.jpg" alt="stress" width="300px">
+            <figcaption>
+                <p>I hate <b>Studing</b>.</p>
+            </figcaption>
+        </figure>
+    </section>
+    
+    <section>
+        <h2><u>My Frind Lists</u></h2>
+        <table border="1" cellpadding="15px">
+            <thead>
+                <tr style="background-color: blue; color: white">
+                    <th style="width: 20%" rowspan="2">No</th>
+                    <th style="width: 80%;" colspan="2">Name</th>
+                </tr>
+                <tr style="background-color: blue; color: white">
+                    <th style="width: 40%;">First Name</th>
+                    <th style="width: 40%;">Last Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Chan</td>
+                    <td>Reaksmey</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Phi</td>
+                    <td>Naro</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Pho</td>
+                    <td>Votey</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2><u>Contact Me</u></h2>
+        <form action="">
+            <fieldset>
+                <legend>Form</legend>
+                <div>
+                    <label for="name">Name</label><br>
+                    <input id="name" type="text" placeholder="Name">
+                </div>
+                <div>
+                    <label>Date of Birth</label><br>
+                    <input type="date" placeholder="Name">
+                </div>
+                <div>
+                    <label>Place of Birth</label><br>
+                    <select name="place_of_birth">
+                        <option value disabled selected>Choose</option>
+                        <option value="pp">Phnom Penh</option>
+                        <option value="tk">Takeo</option>
+                        <option value="btb">Battambang</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="email">Email</label><br>
+                    <input id="email" type="email" placeholder="Email">
+                </div>
+                <div>
+                    <label for="pw">Password</label><br>
+                    <input id="pw" type="password" placeholder="Password">
+                </div>
+                <div>
+                    <label for="gender">Gender</label> <br>
+                    <input type="radio" name="gender" id="gender"> Female <br>
+                    <input type="radio" name="gender" id="gender"> Male male <br>
+                </div>
+                <div>
+                    <br>
+                    <input type="checkbox" name="check-term-condition" id="chckTerm"> Term and Condition
+                </div>
+                <div>
+                    <button type="button"  id="submitBtn"
+                    onclick='alert("Thank You!")' >Submit</button>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    <br>
+    <p>Copyright <a href="#">mysites</a></p>
+</body>
+</html>
